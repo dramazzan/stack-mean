@@ -25,6 +25,7 @@ const checkDivisible = () => {
 };
 
 // task 3
+
 var person = {
   name: ref(""),
   surname: ref(""),
@@ -68,9 +69,10 @@ const checkPoints = () => {
 };
 
 // task 5
-const step = ref(1); // Шаг прогноза
-const branch = ref(null); // Выбранная область
-const profession = ref(""); // Рекомендуемая профессия
+const step = ref(1);
+const branch = ref(null);
+const profession = ref("");
+
 const task5Open = ref(false);
 
 // Выбор области

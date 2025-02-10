@@ -10,6 +10,7 @@ const users = ref([
 const username = ref("");
 const password = ref("");
 const message = ref("");
+
 const isError = ref(false);
 
 const authenticateUser = () => {
@@ -25,6 +26,10 @@ const authenticateUser = () => {
     isError.value = true;
   }
 };
+
+
+
+
 </script>
 
 <template>
@@ -65,6 +70,8 @@ const authenticateUser = () => {
         <router-link to="/">Выйти</router-link>
       </div>
     </div>
+
+
   </main>
 </template>
 
